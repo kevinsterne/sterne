@@ -51,5 +51,4 @@ fabric.properties
 
 # *.iml
 # modules.xml
-.gitignore
 .idea/

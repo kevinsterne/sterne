@@ -1,26 +1,38 @@
-// include modules
-var    express = require('express'),
-  app = express(),
-  path = require('path'),
-  less = require('less-middleware');
+var http = require("http");
+var fs = require("fs");
+var path = require("path");
 
-// compile and serve css
-app.use(less(path.join(__dirname,'source','less'),{
-  dest: path.join(__dirname, 'public'),
-  options: {
-    compiler: {
-      compress: false,
-    },
-  },
-  preprocess: {
-    path: function(pathname, req) {
-      return pathname.replace('/css/','/');
-    },
-  },
-  force: true,
-}));
-// serve static content
-app.use(express.static(path.join(__dirname, 'public')));
+http.createServer(function(req, res) {
 
-// setup server
-var server = app.listen(1337);
+  console.log(`${req.method} request for ${req.url}`);
+
+    if (req.url === "/") {
+    fs.readFile("./public/index.html", "UTF-8", function(err, html) {
+      res.writeHead(200, {"Content-Type": "text/html"});
+      res.end(html);
+      });
+
+    } else if (req.url.match(/.css$/)) {
+        var cssPath = path.join(__dirname, 'public/css', req.url);
+        var fileStream = fs.createReadStream(cssPath, "UTF-8");
+
+        res.writeHead(200, {"Content-Type": "text/css"});
+
+      fileStream.pipe(res);
+    } else if(req.url.match(/.jpg/)) {
+        var imgPath = path.join(__dirname, 'public', req.url);
+        var imgStream = fs.createReadStream(imgPath);
+
+        res.writeHead(200, {"Content-Type": "image/jpeg"});
+
+    }
+
+    else {
+
+      res.writeHead(404, {"Content-Type": "text/plain"});
+      res.end("404 File Not Found");
+
+    }
+}).listen(3000);
+
+console.log("File server is running on port 3000")

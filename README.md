@@ -1,8 +1,11 @@
 # sterne
 A site for Kevin Sterne
 
+
+### Requirements
+- PM2
+
 ### Instructions
------
 
 ### To-do
 * integrate pm2

@@ -1,6 +1,16 @@
 @font-face {
     font-family: "Gotham Light";
-    src: url('assets/Gotham-Light.ttf');
+    src: url('../assets/Gotham-Light.ttf');
+}
+
+@font-face {
+    font-family: "Gotham Bold";
+    src: url('../assets/Gotham-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Gotham Book";
+    src: url('../assets/Gotham-Book.ttf');
 }
 
 * {
@@ -14,10 +24,36 @@ body {
     margin: 0;
     color: #000;
 }
+
+h3 {
+    font-family: "Gotham Bold";
+    font-size: 26px;
+}
+
+h4 {
+    font-family: "Gotham Bold";
+    font-size: 22px;
+}
+
+a {
+    font-size: 18px;
+    color: #1A1A1A;
+    padding: 5px;
+    line-height: 5px;
+    -webkit-transition: ease .5s;
+    transition: ease .5s;
+}
+a:hover {
+    color: #B5B5B5;
+    -webkit-transition: ease .5s;
+    transition: ease .5s;
+}
+
+
 #hero-image {
     height: 80vh;
     width: 100vw;
-    background-image: url(../img/lakeportrait.png);
+    background-image: url(../img/lakeportrait.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,24 +64,37 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    position: absolute;
-    top: 45vh;
-    padding: 50px;
     height: auto;
     font-size: 80px;
 }
 
+.overlay {
+    position: absolute;
+    top: 45vh;
+    text-align: center;
+    padding: 25px;
+}
+
+.fa {
+    display: block;
+    color: #fff;
+    padding: 25px 10px 25px 10px;
+    font-size: 2em !important;
+}
+
+
 #about {
-    width: 50%;
+    font-family: "Gotham Light";
+    font-size: 20px;
     padding: 50px;
     position: relative;
     float: left;
+
 }
 
 .lists {
     position: relative;
-    width: 50%;
-    float: left;
+    float: right;
 }
 
 .list {
@@ -55,4 +104,21 @@ body {
 li {
     padding: 5px;
     font-size: larger;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+
+@media screen and (min-width: 800px) {
+.column1 {
+    float: left;
+    width:50%;
+}
+    #about {
+        margin: 0;
+    }
+.column2 {
+    width: 50%;
+    float: right;
+}
 }

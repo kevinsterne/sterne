@@ -20,11 +20,19 @@ http.createServer(function(req, res) {
 
       fileStream.pipe(res);
     } else if(req.url.match(/.jpg/)) {
-        var imgPath = path.join(__dirname, 'public', req.url);
+        var imgPath = path.join(__dirname, 'public/', req.url);
         var imgStream = fs.createReadStream(imgPath);
 
-        res.writeHead(200, {"Content-Type": "image/jpeg"});
+        res.writeHead(200, {"Content-Type": "image/jpeg/"});
 
+      imgStream.pipe(res);
+    } else if(req.url.match(/.ttf/)) {
+        var fontPath = path.join(__dirname, 'public/', req.url);
+        var fontStream = fs.createReadStream(fontPath);
+
+        res.writeHead(200, {"Content-Type": "application/x-font-ttf"});
+
+      fontStream.pipe(res);
     }
 
     else {
@@ -33,6 +41,6 @@ http.createServer(function(req, res) {
       res.end("404 File Not Found");
 
     }
-}).listen(3000);
+}).listen(80);
 
-console.log("File server is running on port 3000")
+console.log("File server is running on port 80")

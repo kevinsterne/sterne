@@ -31,6 +31,6 @@ NOTE: running this command will require you to restart pm2.
 6. See http://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/ for other commands (star, stop, etc).
 
 ##### Editing files
-* Requires SFTP setup into server.
-* After files are changed they must be transferred to the server via FTP
+* Requires SFTP setup into server(fileZilla).
+* After files are changed on your computer they must be transferred to the server via SFTP
 * PM2 must be restarted after files are added or edited on the server

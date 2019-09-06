@@ -35,6 +35,11 @@ h4 {
     font-size: 22px;
 }
 
+h5 {
+    font-family: "Gotham Bold";
+    font-size: 22px;
+}
+
 a {
     font-size: 18px;
     color: #1A1A1A;
@@ -51,10 +56,10 @@ a:hover {
 
 
 #hero-image {
-    height: 80vh;
+    height: 140vh;
     width: 100vw;
-    background-image: url(../img/lakeportrait.jpg);
-    background-attachment: fixed;
+    background-image: url(../img/coverphoto.jpg);
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -88,13 +93,13 @@ a:hover {
     font-size: 20px;
     padding: 50px;
     position: relative;
-    float: left;
+
 
 }
 
 .lists {
     position: relative;
-    float: right;
+
 }
 
 .list {
@@ -111,14 +116,11 @@ li {
 
 @media screen and (min-width: 800px) {
 .column1 {
-    float: left;
-    width:50%;
+
+    width:100%;
 }
     #about {
         margin: 0;
-    }
-.column2 {
-    width: 50%;
-    float: right;
+
 }
 }

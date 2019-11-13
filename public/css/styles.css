@@ -65,28 +65,15 @@ a:hover {
     background-position: center;
 }
 
-#hero-image2 {
+#bio-image {
     height: 100vh;
     width: 50vw;
     background-image: url(../img/couch.jpg);
-    display: block;
-    position: fixed;
-    left: 0;
-    z-index: 99;
-    width: 100%;
-    height: 20px;
-    background: inherit;
-    background-image: inherit;
-    background-position-x: inherit;
-    background-position-y: inherit;
-    background-size: inherit;
-    background-repeat-x: inherit;
-    background-repeat-y: inherit;
-    background-attachment: inherit;
-    background-origin: inherit;
-    background-clip: inherit;
-    background-color: inherit;
-}
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 

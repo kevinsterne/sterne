@@ -68,7 +68,7 @@ a:hover {
 #hero-image2 {
     height: 140vh;
     width: 100vw;
-    background-image: url(../img/couch.jpeg);
+    background-image: url(../img/couch.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;

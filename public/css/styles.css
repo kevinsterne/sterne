@@ -65,6 +65,17 @@ a:hover {
     background-position: center;
 }
 
+#hero-image2 {
+    height: 140vh;
+    width: 100vw;
+    background-image: url(../img/couch.jpeg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 #title {
     margin: 0;
     padding: 0;

@@ -71,7 +71,7 @@ a:hover {
     background-image: url(../img/couch.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
 }
 

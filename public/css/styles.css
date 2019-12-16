@@ -39,27 +39,41 @@ nav {
 .nav-menu li {
     display: inline-block;
     float: right;
+    padding: 25px 20px 25px 20px;
 }
 
 .nav-menu a {
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-
 }
 
 .logo {
+    padding-left: 20px;
     display: inline-block;
     float: left;
     margin: 0;
 }
+
 body {
     background-color: white;
     padding: 0;
-    margin: 0;
     color: #000;
+    max-width: 1000px;
+    margin: auto;
 }
 
+.row {
+    display: flex;
+}
+}
+.column-left {
+    flex: 75%;
+}
+
+.column-right {
+    flex: 25%;
+}
 /*h3 {*/
     /*font-family: "Gotham Bold";*/
     /*font-size: 26px;*/
@@ -91,9 +105,9 @@ a:hover {
 
 
 #hero-image {
-    height: 140vh;
-    width: 100vw;
-    background-image: url(../img/FromYourJerry.jpeg);
+    width: 75vw;
+    height: 100vh;
+    background-image: url(../img/Hero.JPG);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;

@@ -66,13 +66,15 @@ body {
 .row {
     display: flex;
 }
-}
+
 .column-left {
-    flex: 75%;
+    flex: 60%;
+    height: 90vh;
 }
 
 .column-right {
-    flex: 25%;
+    flex: 40%;
+    height: 90vh;
 }
 /*h3 {*/
     /*font-family: "Gotham Bold";*/
@@ -105,13 +107,13 @@ a:hover {
 
 
 #hero-image {
-    width: 75vw;
+    width: 60vw;
     height: 100vh;
     background-image: url(../img/Hero.JPG);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right;
 }
 
 #bio-image {
@@ -124,6 +126,7 @@ a:hover {
     background-position: center right;
 
 }
+
 
 
 #title {
@@ -147,13 +150,22 @@ a:hover {
     font-size: 2em !important;
 }
 
+#bookimg {
+    width: auto;
+    height: 40vh;
+    background-image: url(../img/FromYourJerry.jpeg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 #about {
     /*font-family: "Gotham Light";*/
     font-size: 20px;
     padding: 50px;
     position: relative;
-
+    text-align: center;
 
 }
 

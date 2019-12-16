@@ -1,23 +1,58 @@
-@font-face {
-    font-family: "Gotham Light";
-    src: url('../assets/Gotham-Light.ttf');
-}
+/*@font-face {*/
+    /*font-family: "Gotham Light";*/
+    /*src: url('../assets/Gotham-Light.ttf');*/
+/*}*/
 
-@font-face {
-    font-family: "Gotham Bold";
-    src: url('../assets/Gotham-Bold.ttf');
-}
+/*@font-face {*/
+    /*font-family: "Gotham Bold";*/
+    /*src: url('../assets/Gotham-Bold.ttf');*/
+/*}*/
 
-@font-face {
-    font-family: "Gotham Book";
-    src: url('../assets/Gotham-Book.ttf');
-}
+/*@font-face {*/
+    /*font-family: "Gotham Book";*/
+    /*src: url('../assets/Gotham-Book.ttf');*/
+/*}*/
 
 * {
-    font-family: "Gotham Light";
+    font-family: 'Sulphur Point', sans-serif;
 }
 
 
+nav {
+    display: block;
+    position: relative;
+    vertical-align: middle;
+    height: 80px;
+
+}
+#navigation {
+    overflow: hidden;
+}
+.nav-menu {
+    display: inline-block;
+    width: 100%;
+}
+.nav-menu ul {
+    list-style-type: none;
+    margin: 0 auto;
+}
+.nav-menu li {
+    display: inline-block;
+    float: right;
+}
+
+.nav-menu a {
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    margin: 0;
+}
 body {
     background-color: white;
     padding: 0;
@@ -25,20 +60,20 @@ body {
     color: #000;
 }
 
-h3 {
-    font-family: "Gotham Bold";
-    font-size: 26px;
-}
+/*h3 {*/
+    /*font-family: "Gotham Bold";*/
+    /*font-size: 26px;*/
+/*}*/
 
-h4 {
-    font-family: "Gotham Bold";
-    font-size: 22px;
-}
+/*h4 {*/
+    /*font-family: "Gotham Bold";*/
+    /*font-size: 22px;*/
+/*}*/
 
-h5 {
-    font-family: "Gotham Bold";
-    font-size: 22px;
-}
+/*h5 {*/
+    /*font-family: "Gotham Bold";*/
+    /*font-size: 22px;*/
+/*}*/
 
 a {
     font-size: 18px;
@@ -81,7 +116,6 @@ a:hover {
     margin: 0;
     padding: 0;
     color: #fff;
-    height: auto;
     font-size: 80px;
 }
 
@@ -101,7 +135,7 @@ a:hover {
 
 
 #about {
-    font-family: "Gotham Light";
+    /*font-family: "Gotham Light";*/
     font-size: 20px;
     padding: 50px;
     position: relative;

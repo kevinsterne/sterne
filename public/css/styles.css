@@ -1,22 +1,15 @@
-/*@font-face {*/
-    /*font-family: "Gotham Light";*/
-    /*src: url('../assets/Gotham-Light.ttf');*/
-/*}*/
-
-/*@font-face {*/
-    /*font-family: "Gotham Bold";*/
-    /*src: url('../assets/Gotham-Bold.ttf');*/
-/*}*/
-
-/*@font-face {*/
-    /*font-family: "Gotham Book";*/
-    /*src: url('../assets/Gotham-Book.ttf');*/
-/*}*/
-
 * {
     font-family: 'Sulphur Point', sans-serif;
 }
 
+body {
+    background-color: white;
+    padding: 0;
+    color: #000;
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+}
 
 nav {
     display: block;
@@ -56,13 +49,6 @@ nav {
     margin: 0;
 }
 
-body {
-    background-color: white;
-    padding: 0;
-    color: #000;
-    max-width: 1000px;
-    margin: auto;
-}
 
 .row {
     display: flex;
@@ -70,12 +56,12 @@ body {
 
 .column-left {
     flex: 60%;
-    height: 90vh;
+    height: 80vh;
 }
 
 .column-right {
     flex: 40%;
-    height: 90vh;
+    height: 80vh;
 }
 /*h3 {*/
     /*font-family: "Gotham Bold";*/
@@ -105,30 +91,19 @@ a:hover {
     -webkit-transition: ease .5s;
     transition: ease .5s;
 }
-
+.header-link {
+    font-size: 26px;
+}
 
 #hero-image {
     width: 60vw;
-    height: 100vh;
+    height: 90vh;
     background-image: url(../img/Hero.JPG);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
 }
-
-#bio-image {
-    height: 100vh;
-    width: 50vw;
-    background-image: url(../img/couch.jpg);
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center right;
-
-}
-
-
 
 #title {
     margin: 0;
@@ -151,7 +126,7 @@ a:hover {
     font-size: 2em !important;
 }
 
-#bookimg {
+#book-img {
     width: auto;
     height: 40vh;
     background-image: url(../img/FromYourJerry.jpeg);
@@ -162,11 +137,11 @@ a:hover {
 }
 
 #about {
-    /*font-family: "Gotham Light";*/
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
     position: relative;
     text-align: center;
+    vertical-align: middle;
 
 }
 

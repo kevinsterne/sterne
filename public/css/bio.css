@@ -1,0 +1,35 @@
+body {
+    max-width: 1000px;
+}
+
+#bio-image {
+    height: 50vh;
+    background-image: url(../img/coverphoto.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+
+#about {
+    /*font-family: "Gotham Light";*/
+    font-size: 20px;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+  align-items: center;
+
+}
+
+.row {
+    display: flex;
+}
+.right-section {
+    width: 60%;
+}
+
+.left-section {
+    width: 40%;
+
+}

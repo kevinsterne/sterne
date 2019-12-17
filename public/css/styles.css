@@ -93,9 +93,8 @@ body {
 /*}*/
 
 a {
-    font-size: 18px;
+    font-size: 20px;
     color: #79AB78;
-    padding: 5px;
     line-height: 5px;
     -webkit-transition: ease .5s;
     transition: ease .5s;
@@ -180,12 +179,17 @@ a:hover {
     padding: 10px;
 }
 
+ul {
+    padding-left: 0;
+}
+
 li {
     padding: 5px;
     font-size: larger;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 150%;
     list-style-type: none;
+    padding-left: 0;
 }
 
 

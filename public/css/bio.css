@@ -2,15 +2,7 @@ body {
     max-width: 1000px;
 }
 
-.middle-align {
-    display: flex;
-}
 
-.middle-align p {
-    vertical-align: center;
-    align-items: center;
-    justify-content: center;
-}
 #bio-image {
     height: 50vh;
     background-image: url(../img/coverphoto.jpg);
@@ -24,20 +16,25 @@ body {
 .about {
     /*font-family: "Gotham Light";*/
     font-size: 20px;
-    vertical-align: center;
+    margin: auto;
 
 
 }
 
-.row {
-    display: flex;
-}
+
 .right-section {
     width: 60%;
 }
 
 .left-section {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5em;
+    margin: 20px;
+
 
 }
+
 

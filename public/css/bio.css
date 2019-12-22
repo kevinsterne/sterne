@@ -4,7 +4,12 @@ body {
 
 .middle-align {
     display: flex;
+}
+
+.middle-align p {
     vertical-align: center;
+    align-items: center;
+    justify-content: center;
 }
 #bio-image {
     height: 50vh;

@@ -2,6 +2,10 @@ body {
     max-width: 1000px;
 }
 
+.middle-align {
+    display: flex;
+    vertical-align: center;
+}
 #bio-image {
     height: 50vh;
     background-image: url(../img/coverphoto.jpg);
@@ -12,13 +16,11 @@ body {
 }
 
 
-#about {
+.about {
     /*font-family: "Gotham Light";*/
     font-size: 20px;
-    padding: 30px;
-    position: relative;
-    text-align: center;
-  align-items: center;
+    vertical-align: center;
+
 
 }
 

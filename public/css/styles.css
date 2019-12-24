@@ -224,6 +224,7 @@ footer {
     .mobilenav {
         overflow: hidden;
         position: relative;
+        display: block;
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */

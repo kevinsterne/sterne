@@ -188,3 +188,12 @@ footer {
 
 }
 }
+
+@media screen and (max-width: 600px) {
+    .right-section {
+        width: 100%;
+    }
+    .left-section {
+        width: 100%;
+    }
+}

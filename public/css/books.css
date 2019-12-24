@@ -51,3 +51,23 @@ footer {
     float: right;
     margin-top: 80px;
 }
+
+@media only screen and (max-width: 600px) {
+    .row {
+        display: block;
+    }
+    .right-section {
+        width: 100%;
+        margin: auto;
+    }
+    .left-section {
+        width: 100%;
+        margin: auto;
+    }
+    body {
+        background-color: blue;
+    }
+    #jerry-img {
+        width: 100%;
+    }
+}

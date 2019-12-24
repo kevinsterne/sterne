@@ -16,6 +16,19 @@
     <meta name="author" content="Benjamin Loschen">
     <!--CDN link for  TweenMax-->
     <script src="https://use.fontawesome.com/55063d671c.js"></script>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+      /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
 </head>
 
 <body>
@@ -36,6 +49,25 @@
         </ul>
     </div>
 </nav>
+<div class="mobilenav">
+    <div class="logo">
+        <a href="index.html">
+            <h2>Kevin Sterne</h2>
+        </a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="myLinks">
+        <a href="contact.html">Contact</a>
+        <a href="press.html">Press</a>
+        <a href="projects.html">Projects</a>
+        <a href="books.html">Books</a>
+        <a href="writing.html">Writing</a>
+        <a href="bio.html">Bio</a>
+    </div>
+
+</div>
 <div id="contact">
     <H1>Contact</H1>
     <span class="bold">Email: </span><p>kevinsternewrites (at) gmail (dot) com</p><br>

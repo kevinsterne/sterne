@@ -178,6 +178,8 @@ footer {
     right: 30px;
 }
 
+
+
 @media screen and (min-width: 800px) {
 .column1 {
 
@@ -190,6 +192,62 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+
+    body, p, h1, h2, h3{
+        padding-left: 15px;
+    }
+    .logo {
+        width: 100%;
+    }
+
+    #navigation {
+        display: none;
+    }
+    /* Style the navigation menu */
+    .mobilenav {
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .mobilenav #myLinks {
+        display: none;
+        margin: auto;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    /* Style navigation menu links */
+    .mobilenav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 22px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .mobilenav a.icon {
+        color: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mobilenav i {
+        color: black;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .mobilenav a:hover {
+        color: black;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        color: black;
+    }
     .right-section {
         width: 100%;
     }

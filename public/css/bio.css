@@ -36,5 +36,18 @@ body {
 
 
 }
+@media screen and (max-width: 600px) {
+    .left-section {
+        width: 100%;
+        margin: 0;
+    }
+    .right-section {
+        width: 100%;
+    }
+
+    #bio-image {
+        width: 100%;
+    }
+}
 
 

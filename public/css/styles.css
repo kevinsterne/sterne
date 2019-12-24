@@ -18,6 +18,10 @@ nav {
     height: 80px;
 
 }
+
+.mobilenav {
+    display: none;
+}
 #navigation {
     overflow: hidden;
 }
@@ -43,7 +47,6 @@ nav {
 }
 
 .logo {
-    padding-left: 20px;
     display: inline-block;
     float: left;
     margin: 0;
@@ -173,9 +176,9 @@ li {
 }
 
 footer {
-    position: absolute;
-    bottom: 30px;
-    right: 30px;
+    position: relative;
+    float: right;
+    padding: 10px;
 }
 
 
@@ -192,9 +195,23 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .row {
+        display: block;
+    }
+    .right-section {
+        width: 100%;
+        margin: auto;
+    }
+    .left-section {
+        width: 100%;
+        margin: auto;
+    }
+    #hero-image {
+        width: 100%;
+    }
+    p, h1, h2, h3, li {
+        padding: 15px;
 
-    body, p, h1, h2, h3{
-        padding-left: 15px;
     }
     .logo {
         width: 100%;
@@ -250,8 +267,10 @@ footer {
     }
     .right-section {
         width: 100%;
+        margin: 0;
     }
     .left-section {
         width: 100%;
+        margin: 0;
     }
 }

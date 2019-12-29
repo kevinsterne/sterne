@@ -19,6 +19,10 @@ nav {
 
 }
 
+.mobilenav h2 {
+    font-size: 35px
+}
+
 .mobilenav {
     display: none;
 }
@@ -28,6 +32,9 @@ nav {
 .nav-menu {
     display: inline-block;
     width: 100%;
+}
+#navigation h2 {
+    font-size: 33px;
 }
 .nav-menu ul {
     list-style-type: none;

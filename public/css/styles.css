@@ -196,6 +196,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+    .spacer {
+        height: 50px;
+    }
     .row {
         display: block;
     }

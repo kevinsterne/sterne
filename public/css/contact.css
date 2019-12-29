@@ -15,7 +15,8 @@ a {
 
 #contact {
     display: inline-block;
-    margin: 5px;
+    margin: 5px auto;
+    padding-top: 100px;
 }
 
 #bookme {

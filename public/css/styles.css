@@ -179,6 +179,7 @@ footer {
     position: relative;
     float: right;
     padding: 10px;
+    display: block;
 }
 
 

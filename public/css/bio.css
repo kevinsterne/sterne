@@ -4,7 +4,7 @@ body {
 
 
 #bio-image {
-    height: 60vh;
+    height: 70vh;
     background-image: url(../img/coverphoto.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;

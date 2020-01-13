@@ -177,6 +177,10 @@ li {
     padding-left: 0;
 }
 
+p {
+    align-content: justify;
+}
+
 .bold {
     font-weight: 700;
     font-size: 30px;
@@ -189,9 +193,7 @@ footer {
     display: block;
 }
 
-p {
-Align-content: justify;
-}
+
 
 @media screen and (min-width: 800px) {
 .column1 {

@@ -189,7 +189,9 @@ footer {
     display: block;
 }
 
-
+P {
+Align-content: justify;
+}
 
 @media screen and (min-width: 800px) {
 .column1 {

@@ -138,7 +138,7 @@ a:hover {
 
 #book-img {
     width: auto;
-    height: 100vh;
+    height: auto;
     background-image: url(../img/ALLMUSTGO_COVER.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;

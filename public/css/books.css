@@ -12,7 +12,18 @@
 #jerry-img {
     height: 500px;
     width: 100%;
-    background-image: url(../img/From Your Jerry.jpeg);
+    background-image: url(../img/FYJtwo.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+#doneworse-img {
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/DoneWorse.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;

@@ -3,7 +3,14 @@ footer {
     float: right;
 }
 
-
+#cover-image {
+    height: 90vh;
+    background-image: url(../img/coverphoto.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
 
 h3 {
     font-size: 30px;
